@@ -1,5 +1,5 @@
 # Aplicatie mobila pentru ANAF [![Build Status](https://travis-ci.org/gov-ithub/anaf-mobile.svg?branch=master)](https://travis-ci.org/gov-ithub/anaf-mobile) 
-Aplicatie mobila pentru ANAF
+Se doreste o aplicatie independenta care, pentru inceput, va furniza o serie de informatii/notificari generale (valorificare bunuri, noutati legislative, calendar obligatii fiscale, anunturi) grupate pe categorii, precum si cateva instrumente de calcul (existente deja pe site-ul www.anaf.ro). Utilizatorul isi va putea seta un profil in baza caruia sa filtreze informatiile/notificarile pe care le va primi. Intr-un pas ulteior, aplicatia se va integra cu si va prelua functionalitatiile Spatiului Privat Virtual.
 
 ## Instalare
 To be updated
