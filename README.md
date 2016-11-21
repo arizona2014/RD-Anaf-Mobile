@@ -10,7 +10,7 @@ To be updated
 - [Cordova] (https://cordova.apache.org/)
 
 ## Development IDE & tools:
-- Recomandat [Visual Studio Community], vine cu cordova si ripple
+- Recomandat [Visual Studio Community] (https://www.visualstudio.com/vs/community/), are deja plugin-uri pentru cordova si ripple
 - Alte IDE-uri pot fi folosite
 
 ## Contribuie
