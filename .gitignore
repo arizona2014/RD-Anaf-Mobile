@@ -257,25 +257,23 @@ paket-files/
 .DS_Store
 
 # iOS
-platforms/ios
+anaf.app/platforms/ios
 *.xcuserdatad
 
 # android
-platforms/android
+anaf.app/platforms/android
 
 # wp8
-platforms/wp8
+anaf.app/platforms/wp8
 
 # platforms 
-platforms
+anaf.app/platforms
 
 # plugins
-plugins
+anaf.app/plugins
 
 # res
-resources/signing
+anaf.app/resources/signing
 
-www
-typings
-
-typings
+anaf.app/www/*.*
+anaf.app/typings
