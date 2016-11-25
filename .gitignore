@@ -257,31 +257,14 @@ paket-files/
 .DS_Store
 
 # iOS
-anaf.app/platforms/ios/build/
-anaf.app/platforms/ios/www/
-anaf.app/platforms/ios/cordova/console.log
+anaf.app/platforms/ios
 *.xcuserdatad
 
 # android
-anaf.app/platforms/android/assets/www
-anaf.app/platforms/android/bin
-anaf.app/platforms/android/gen
-anaf.app/platforms/android/local.properties
-anaf.app/platforms/android/ant-build
-anaf.app/platforms/android/ant-gen
-anaf.app/platforms/android/CordovaLib/ant-build
-anaf.app/platforms/android/CordovaLib/ant-gen
-anaf.app/platforms/android/CordovaLib/bin
-anaf.app/platforms/android/CordovaLib/gen
-anaf.app/platforms/android/CordovaLib/local.properties
+anaf.app/platforms/android
 
 # wp8
-anaf.app/platforms/wp8/bin
-anaf.app/platforms/wp8/obj
-anaf.app/platforms/wp8/www
-anaf.app/platforms/wp8/.staging
-anaf.app/platforms/wp8/*.suo
-anaf.app/platforms/wp8/*.csproj.user
+anaf.app/platforms/wp8
 
 # res
 anaf.app/resources/signing
