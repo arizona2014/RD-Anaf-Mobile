@@ -266,6 +266,12 @@ anaf.app/platforms/android
 # wp8
 anaf.app/platforms/wp8
 
+# platforms 
+anaf.app/platforms
+
+# plugins
+anaf.app/plugins
+
 # res
 anaf.app/resources/signing
 
