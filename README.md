@@ -8,6 +8,10 @@ Se doreste o aplicatie independenta care, pentru inceput, va furniza o serie de 
 - Sterge din C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External node, npm si node_modules
 - Vom folosi nodejs de la sursa
 
+### Webstorm
+- [Suport TypeScript](https://www.jetbrains.com/help/webstorm/2016.3/typescript-support.html)
+- [Utilizare PhoneGap/Cordova](https://www.jetbrains.com/help/webstorm/2016.2/using-phonegap-cordova.html)
+
 ### General
 - Ultima versiune de NodeJS & NPM https://nodejs.org/en/
 - Command prompt (cmd): 

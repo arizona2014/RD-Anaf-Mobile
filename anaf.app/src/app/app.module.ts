@@ -1,14 +1,15 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
-import { HomePage, AboutPage, ContactPage } from './pages/index';
+import { HomePage, AboutPage, ContactPage,AsistentaPage } from './pages/index';
 
 @NgModule({
     declarations: [
         MyApp,
         HomePage,
         AboutPage,
-        ContactPage
+        ContactPage,
+        AsistentaPage
     ],
     imports: [ 
         IonicModule.forRoot(MyApp)
@@ -18,7 +19,8 @@ import { HomePage, AboutPage, ContactPage } from './pages/index';
     entryComponents: [
         HomePage,
         AboutPage,
-        ContactPage
+        ContactPage,
+        AsistentaPage
     ]
 })
 export class AppModule { } 

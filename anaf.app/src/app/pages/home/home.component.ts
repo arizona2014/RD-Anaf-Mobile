@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { AboutPage } from '../about/about';
-import { ContactPage } from '../contact/contact';
+import { AboutPage } from '../about/about.component';
+import { ContactPage } from '../contact/contact.component';
+import { AsistentaPage } from '../asistenta/asistenta.component';
 
 @Component({
-    templateUrl: 'home.html'
+    templateUrl: 'home.component.html'
 })
 export class HomePage {
 
@@ -17,6 +18,10 @@ export class HomePage {
 
     contact() {
         this.navController.push(ContactPage);
+    }
+
+    help() {
+        this.navController.push(AsistentaPage);
     }
 
     onLink(url: string) {

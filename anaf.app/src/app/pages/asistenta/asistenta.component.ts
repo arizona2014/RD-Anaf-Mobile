@@ -2,7 +2,7 @@
 import { NavController } from 'ionic-angular'
 
 @Component({
-    templateUrl: 'asistenta.html'
+    templateUrl: 'asistenta.component.html'
 })
 // Component class
 export class AsistentaPage {
