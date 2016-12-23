@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?86jxj8');
+  src:  url('fonts/icomoon.eot?86jxj8#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?86jxj8') format('truetype'),
+    url('fonts/icomoon.woff?86jxj8') format('woff'),
+    url('fonts/icomoon.svg?86jxj8#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ic-asistenta-on:before {
+  content: "\e923";
+}
+.icon-ic-back:before {
+  content: "\e924";
+}
+.icon-ic-cautare:before {
+  content: "\e925";
+}
+.icon-ic-contact-off:before {
+  content: "\e926";
+}
+.icon-ic-contact-on:before {
+  content: "\e927";
+}
+.icon-ic-creion:before {
+  content: "\e928";
+}
+.icon-ic-detalii:before {
+  content: "\e929";
+}
+.icon-ic-fax:before {
+  content: "\e92a";
+}
+.icon-ic-filtrare:before {
+  content: "\e92b";
+}
+.icon-ic-harta:before {
+  content: "\e92c";
+}
+.icon-ic-info-off:before {
+  content: "\e92d";
+}
+.icon-ic-info-on:before {
+  content: "\e92e";
+}
+.icon-ic-instrumente-off:before {
+  content: "\e92f";
+}
+.icon-ic-instrumente-on:before {
+  content: "\e930";
+}
+.icon-ic-notificare-off:before {
+  content: "\e931";
+}
+.icon-ic-notificare-on:before {
+  content: "\e932";
+}
+.icon-ic-setari:before {
+  content: "\e933";
+}
+.icon-ic-tablou-off:before {
+  content: "\e934";
+}
+.icon-ic-tablou-on:before {
+  content: "\e935";
+}
+.icon-ic-telefon:before {
+  content: "\e936";
+}
+.icon-ic-web:before {
+  content: "\e937";
+}
+.icon-Untitled-1:before {
+  content: "\e938";
+}
+.icon-x-inchidere:before {
+  content: "\e939";
+}
+.icon-ic-adresa:before {
+  content: "\e93a";
+}
+.icon-ic-apel-direct:before {
+  content: "\e93b";
+}
+.icon-ic-asistenta-off:before {
+  content: "\e93c";
+}
+
