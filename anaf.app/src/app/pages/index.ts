@@ -1,5 +1,6 @@
 export * from './contact/contact.component';
 export * from './contact/sedii/contact-sedii';
+export * from './contact/sedii/harta/sedii-harta';
 export * from './contact/sesizare/contact-sesizare';
 export * from './home/home.component';
 export * from './asistenta/asistenta.component';
