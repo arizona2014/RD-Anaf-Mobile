@@ -1,11 +1,56 @@
 <ion-header>
+
     <ion-navbar>
         <ion-title>Contact</ion-title>
+
     </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
+
+    <ion-list >
+
+        <ion-item-sliding *ngFor="let sediu of sedii">
+
+            <ion-item>
+
+                <div class="titlu">
+
+                    {{sediu.titlu}}
+
+                </div>
+
+                <div class="adresa">
+
+                    <ion-icon name="pin"></ion-icon>
+                    {{ sediu.adresa }}
+
+                </div>
+
+                <div class="telefon">
+
+                    <ion-icon name="call"></ion-icon>
+                    {{ sediu.telefon }}
+
+                </div>
+
+                <div class="infos-harta">
+
+                    <a (click)="vizualizare(sediu)">
+                        <ion-icon name="map"></ion-icon>
+                        Vezi pe harta
+                    </a>
+
+                    <span> {{sediu.distanta}} km distanta </span>
+
+                </div>
+
+            </ion-item>
+
+        </ion-item-sliding>
+
+    </ion-list>
 
 </ion-content>

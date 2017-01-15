@@ -1,3 +1,32 @@
 page-contact-sedii {
 
+  .titlu {
+    font-weight: bold;
+    margin:0 0 15px 0;
+  }
+
+  .adresa {
+    margin:0 0 10px 0;
+  }
+
+  .adresa ion-icon {
+    margin-right:5px;
+  }
+
+  .telefon {
+    margin:0 0 10px 0;
+  }
+
+  .telefon ion-icon {
+    margin-right:5px;
+  }
+
+  .infos-harta a {
+    float:left;
+  }
+
+  .infos-harta span {
+    float:right;
+  }
+
 }
