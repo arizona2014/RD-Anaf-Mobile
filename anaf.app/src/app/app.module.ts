@@ -5,6 +5,7 @@ import {
     HomePage,
     ContactPage,
     ContactSediiPage,
+    SediiHartaPage,
     ContactSesizarePage,
     AsistentaPage,
     InstrumentePage,
@@ -27,6 +28,7 @@ import { RSS_CHANNEL_LIST_TOKEN, RSS_CHANNEL_LIST } from './shared/config';
         HomePage,
         ContactPage,
         ContactSediiPage,
+        SediiHartaPage,
         ContactSesizarePage,
         AsistentaPage,
         InstrumentePage,
@@ -40,8 +42,14 @@ import { RSS_CHANNEL_LIST_TOKEN, RSS_CHANNEL_LIST } from './shared/config';
         RssFeedItemComponent
     ],
     imports: [
-        IonicModule.forRoot(MyApp)
-    ],
+        IonicModule.forRoot(MyApp,{
+            platforms: {
+                ios: {
+                    backButtonText: ''
+                }
+            }
+        },{}
+    )],
     bootstrap: [IonicApp],
     providers: [
         { provide: ErrorHandler, useClass: IonicErrorHandler },
@@ -52,6 +60,7 @@ import { RSS_CHANNEL_LIST_TOKEN, RSS_CHANNEL_LIST } from './shared/config';
         HomePage,
         ContactPage,
         ContactSediiPage,
+        SediiHartaPage,
         ContactSesizarePage,
         AsistentaPage,
         InstrumentePage,
