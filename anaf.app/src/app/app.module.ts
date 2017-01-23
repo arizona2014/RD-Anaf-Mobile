@@ -20,6 +20,9 @@ import {
 } from './pages/index';
 import { RssService } from './providers/rss.service';
 import { RSS_CHANNEL_LIST_TOKEN, RSS_CHANNEL_LIST } from './shared/config';
+import {SediiService} from "./providers/sedii.service";
+import {Connectivity} from "./providers/connectivity.service";
+import {GoogleMaps} from "./providers/google-maps.service";
 /*import {AboutPage} from "./pages/about/about.component";*/
 
 @NgModule({
@@ -54,7 +57,10 @@ import { RSS_CHANNEL_LIST_TOKEN, RSS_CHANNEL_LIST } from './shared/config';
     providers: [
         { provide: ErrorHandler, useClass: IonicErrorHandler },
         RssService,
-        { provide: RSS_CHANNEL_LIST_TOKEN, useValue: RSS_CHANNEL_LIST } //required for RSS Channel List configuration
+        { provide: RSS_CHANNEL_LIST_TOKEN, useValue: RSS_CHANNEL_LIST }, //required for RSS Channel List configuration
+        SediiService,
+        Connectivity,
+        GoogleMaps
     ],
     entryComponents: [
         HomePage,
