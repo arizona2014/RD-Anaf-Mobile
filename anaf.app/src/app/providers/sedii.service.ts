@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Http } from '@angular/http';
+import {Http, Response} from '@angular/http';
 import 'rxjs/add/operator/map';
 
 /*
@@ -9,10 +9,14 @@ import 'rxjs/add/operator/map';
  for more info on providers and Angular 2 DI.
  */
 @Injectable()
-export class Sedii {
+export class SediiService {
 
-    constructor(public http: Http) {
-        console.log('Hello Sedii Provider');
-    }
+    sedii: any;
+
+    constructor(public http: Http) { }
+
+    getAllSedii = () => {
+        return this.http.get('assets/data/sedii.json').map((res:Response) => res.json());
+    };
 
 }
