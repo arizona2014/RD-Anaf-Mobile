@@ -1,0 +1,30 @@
+[
+  {
+    "nume": "Contacte privind asistenţa și indrumarea contribuabililor",
+    "adresa": "",
+    "coords": { "lat": "", "long": ""},
+    "distanta": "13.5",
+    "telefon": "0314039160"
+  },
+  {
+    "nume": "Preţri transfer",
+    "adresa": "",
+    "coords": { "lat": "", "long": ""},
+    "distanta": "13.5",
+    "telefon": "0213199866, 0213199851, 0213871000, 0213106820 int. 2427"
+  },
+  {
+    "nume": "Solutionarea contestatii fiscale",
+    "adresa": "",
+    "coords": { "lat": "", "long": ""},
+    "distanta": "13.5",
+    "telefon": "0213368548, 0213871000, 0213106820 int. 2427"
+  },
+  {
+    "nume": "Relatii publice si mass-media",
+    "adresa": "Str. Apolodor nr. 17, Sector 5, Bucuresti - 050741",
+    "coords": { "lat": "", "long": ""},
+    "distanta": "13.5",
+    "telefon": "0213871000, 0213106820, 0213871110"
+  }
+]

@@ -1,0 +1,132 @@
+[{
+  "regiunea": "Ploieşti",
+  "nume": "Direcţia Generală Regională a Finanţelor Publice PLOIEŞTI",
+  "localitati": ["Ploieşti"],
+  "adresa": "Str. Aurel Vlaicu nr. 22, C.P. 100023, Jud. Prahova",
+  "coords": { "lat": "", "long": ""},
+  "distanta": "13.5",
+  "telefon": "0244407710",
+  "telefonAsistentaFiscala": "",
+  "telefonAsistentaContribuabilului": "0314039160"
+},
+{
+  "regiunea": "Ploieşti",
+  "nume": "Administraţia pentru Contribuabili Mijlocii - D.G.R.F.P. Ploiești",
+  "localitati": ["Ploieşti"],
+  "adresa": "Str. Gh. Grigore Cantacuzino nr. 348, C.P. 100301, Jud. Prahova",
+  "coords": { "lat": "", "long": ""},
+  "distanta": "11.5",
+  "telefon": "0244700930",
+  "telefonAsistentaFiscala": "",
+  "telefonAsistentaContribuabilului": "0244.700.930 int. 143"
+},
+{
+  "regiunea": "Ploieşti",
+  "nume": "Administraţia Judeţeană a Finanţelor Publice ARGEŞ",
+  "localitati": ["Albota", "Bascov", "Băbana", "Bradu", "Budeasa", "Ciomăgeşti", "Cocu", "Cotmeana", "Cuca", "Drăganu", "Mărăcineni", "Merişani", "Morăreşti", "Moşoaia", "Oarja", "Piteşti", "Poiana Lacului", "Săpata", "Suseni", "Ştefăneşti", "Uda", "Vedea" ],
+  "adresa": "B-dul Republicii nr. 118, Piteşti, C.P.110050",
+  "coords": { "lat": "", "long": ""},
+  "distanta": "1.5",
+  "telefon": "0248211511, 0248211838",
+  "telefonAsistentaFiscala": "0314039160",
+  "telefonAsistentaContribuabilului": ""
+},
+{
+  "regiunea": "Ploieşti",
+  "nume": "Serviciul fiscal municipal Câmpulung",
+  "localitati": ["Câmpulung", "Albeştii de Muscel", "Aninoasa", "Boteni", "Berevoieşti", "Bughea de Jos", "Bughea de Sus", "Cetăţeni", "Dâmbovicioara", "Dragoslavele", "Godeni", "Lereşti", "Mihăeşti", "Mioarele", "Poienarii de Muscel", "Stoeneşti", "Schitu Goleşti", "Valea Mare Pravăţ", "Rucăr", "Vlădeşt" ],
+  "adresa": "Str. Negru Vodă nr.117 şi Str.Negru Vodă nr.84, C.P. 115100",
+  "coords": { "lat": "", "long": ""},
+  "distanta": "11",
+  "telefon": "0248510830, 0248510159",
+  "telefonAsistentaFiscala": "",
+  "telefonAsistentaContribuabilului": ""
+},
+{
+  "regiunea": "Ploieşti",
+  "nume": "Serviciul fiscal municipal Curtea de Argeş",
+  "localitati": ["Albeştii de Argeş", "Arefu", "Băiculeşti", "Brăduleţ", "Cepari", "Cicăneşti", "Ciofrângeni", "Corbeni", "Corbi", "Curtea de Argeş", "Domneşti", "Mălureni", "Muşăteşti", "Nucşoara", "Poienarii de Argeş", "Sălătrucu", "Şuici", "Tigveni", "Valea Danului", "Valea Iaşului"],
+  "adresa": "Str. Nevers nr.1, C.P. 115300",
+  "coords": { "lat": "", "long": ""},
+  "distanta": "15",
+  "telefon": "0248722159, 0248727315, 0248729242",
+  "telefonAsistentaFiscala": "",
+  "telefonAsistentaContribuabilului": ""
+},
+{
+  "regiunea": "Ploieşti",
+  "nume": "Serviciul fiscal orăşenesc Costeşti",
+  "localitati": ["Bârla", "Buzoeşti", "Căldăraru", "Costeşti", "Hârseşti", "Izvoru", "Lunca Corbului", "Miroşi", "Mozăceni", "Negraşi", "Popeşti", "Râca", "Recea", "Rociu", "Slobozia", "Stolnici", "Ştefan Cel Mare", "Ungheni"],
+  "adresa": "Str.Victoriei, nr.47, C.P.115200",
+  "coords": { "lat": "", "long": ""},
+  "distanta": "5",
+  "telefon": "0248672768",
+  "telefonAsistentaFiscala": "",
+  "telefonAsistentaContribuabilului": ""
+},
+{
+  "regiunea": "Ploieşti",
+  "nume": "Serviciul fiscal orăşenesc Topoloveni",
+  "localitati": ["Beleţi Negreşti", "Bogaţi", "Boţeşti", "Călineşti", "Căteasca", "Dobreşti", "Leordeni", "Priboieni", "Răteşti", "Teiu", "Topoloveni"],
+  "adresa": "Calea Bucureşti nr. 107A, C.P. 115500",
+  "coords": { "lat": "", "long": ""},
+  "distanta": "25",
+  "telefon": "0248666900, 0248666900 int.118",
+  "telefonAsistentaFiscala": "",
+  "telefonAsistentaContribuabilului": ""
+},
+{
+  "regiunea": "Ploieşti",
+  "nume": "Serviciul fiscal orăşenesc Mioveni",
+  "localitati": ["Bălileşti", "Coşeşti", "Davideşti", "Dârmăneşti", "Hârtieşti", "Mioveni", "Miceşti", "Pietroşani", "Stâlpeni", "Ţiţeşti", "Vultureşti"],
+  "adresa": "B-dul Dacia, bloc V2B, Sc.D, mezanin, C.P. 115400",
+  "coords": { "lat": "", "long": ""},
+  "distanta": "2.15",
+  "telefon": "0248260665",
+  "telefonAsistentaFiscala": "",
+  "telefonAsistentaContribuabilului": ""
+},
+{
+  "regiunea": "Ploieşti",
+  "nume": "Administraţia Judeţeană a Finanţelor Publice CĂLĂRAŞI",
+  "localitati": ["Alexandru Odobescu", "Borcea", "Călăraşi", "Ciocăneşti", "Cuza Vodă", "Dichiseni", "Dorobanţu", "Dragalina", "Dragoş Vodă", "Grădiştea", "Independenţa", "Jegălia", "Modelu", "Perişoru", "Roseţi", "Ştefan cel Mare", "Ştefan Vodă", "Ulmu", "Unirea", "Vâlcelele", "Vlad Ţepeş"],
+  "adresa": "Str. Eroilor, nr.6-8, C.P.910005",
+  "coords": { "lat": "", "long": ""},
+  "distanta": "1.5",
+  "telefon": "0242315266, 0242312374, 0242314350 Fax 0242315267",
+  "telefonAsistentaFiscala": "0242311072",
+  "telefonAsistentaContribuabilului": ""
+},
+{
+  "regiunea": "Ploieşti",
+  "nume": "Serviciul fiscal municipal Olteniţa",
+  "localitati": ["Căscioarele", "Chirnogi", "Chiselet", "Curcani", "Mânăstirea", "Mitreni", "Olteniţa", "Radovanu", "Spanţov", "Ulmeni"],
+  "adresa": "Str. Republicii nr.1, C.P.915400",
+  "coords": { "lat": "", "long": ""},
+  "distanta": "15",
+  "telefon": "0242513166",
+  "telefonAsistentaFiscala": "",
+  "telefonAsistentaContribuabilului": ""
+},
+{
+  "regiunea": "Ploieşti",
+  "nume": "Serviciul fiscal orăşenesc Lehliu",
+  "localitati": ["Belciugatele", "Dor Mărunt", "Frăsinet", "Fundulea", "Gurbăneşti", "Ileana", "Lehliu", "Lehliu-Gară", "Lupşanu", "Nicolae Bălcescu", "Săruleşti", "Tămădău Mare", "Valea Argovei"],
+  "adresa": "Str.Crinului nr.2, C.P. 915300",
+  "distanta": "5",
+  "coords": { "lat": "", "long": ""},
+  "telefon": "0242640846, 0242640356",
+  "telefonAsistentaFiscala": "",
+  "telefonAsistentaContribuabilului": ""
+},
+{
+  "regiunea": "Ploieşti",
+  "nume": "Serviciul fiscal orăşenesc Budeşti",
+  "localitati": ["Budeşti", "Crivăţ", "Frumuşani", "Fundeni", "Gălbinaşi", "Luica", "Nana", "Plătăreşti", "Sohatu", "Şoldanu", "Vasilaţi"],
+  "adresa": "Str.Republicii nr.49, C.P. 915100",
+  "coords": { "lat": "", "long": ""},
+  "distanta": "1",
+  "telefon": "0242528304",
+  "telefonAsistentaFiscala": "",
+  "telefonAsistentaContribuabilului": ""
+}]
