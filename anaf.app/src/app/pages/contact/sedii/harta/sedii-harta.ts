@@ -12,7 +12,7 @@ export class SediiHartaPage {
     @ViewChild('map') mapElement: ElementRef;
     @ViewChild('pleaseConnect') pleaseConnect: ElementRef;
 
-    coords: any;
+    private coords: any;
 
     constructor(public navCtrl: NavController, public navParams: NavParams, public maps: GoogleMaps, public platform: Platform) {
         this.coords = this.navParams.get('coords');
@@ -21,7 +21,7 @@ export class SediiHartaPage {
     ionViewDidLoad() {
         this.platform.ready().then(() => {
 
-            let mapLoaded = this.maps.init(this.mapElement.nativeElement, this.pleaseConnect.nativeElement);
+            let mapLoaded = this.maps.init(this.mapElement.nativeElement, this.pleaseConnect.nativeElement, this.coords);
 
         });
     }

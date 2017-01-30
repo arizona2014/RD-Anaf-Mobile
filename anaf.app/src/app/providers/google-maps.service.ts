@@ -20,16 +20,16 @@ export class GoogleMaps {
 
     }
 
-    init(mapElement: any, pleaseConnect: any): Promise<any> {
+    init(mapElement: any, pleaseConnect: any, coords: any): Promise<any> {
 
         this.mapElement = mapElement;
         this.pleaseConnect = pleaseConnect;
 
-        return this.loadGoogleMaps();
+        return this.loadGoogleMaps(coords);
 
     }
 
-    loadGoogleMaps(): Promise<any> {
+    loadGoogleMaps(coords): Promise<any> {
 
         return new Promise((resolve) => {
 
@@ -42,7 +42,7 @@ export class GoogleMaps {
 
                     window['mapInit'] = () => {
 
-                        this.initMap().then(() => {
+                        this.initMap(coords).then(() => {
                             resolve(true);
                         });
 
@@ -65,7 +65,7 @@ export class GoogleMaps {
             else {
 
                 if(this.connectivityService.isOnline()){
-                    this.initMap();
+                    this.initMap(coords);
                     this.enableMap();
                 }
                 else {
@@ -80,16 +80,22 @@ export class GoogleMaps {
 
     }
 
-    initMap(): Promise<any> {
+    initMap(coords): Promise<any> {
 
         this.mapInitialised = true;
+        console.log("coords", coords);
 
         return new Promise((resolve) => {
 
             Geolocation.getCurrentPosition().then((position) => {
 
                 // UNCOMMENT FOR NORMAL USE
-                let latLng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+                if(coords){
+                    let latLng = new google.maps.LatLng(coords.lat, coords.long);
+                } else {
+                    let latLng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+                }
+
 
                 //let latLng = new google.maps.LatLng(40.713744, -74.009056);
 
